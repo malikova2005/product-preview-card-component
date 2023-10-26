@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body, 
+p, 
+h1 {
+    margin: 0;
+}
+    
+.wrapper{
+    width: 100%;
+    min-height:100vh;
+    background-color: antiquewhite;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    
+}
+
+.card{
+    display: flex;
+    justify-content: baseline;
+
+    border-radius: 10px;
+    width: 600px;
+    height: 450px;
+    background: #FFF;
+}
+
+.img-container{
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.product-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background: #FFF;
+
+}
+
+.details-container{
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    padding: 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.brand-name{
+    font-family: 'Montserrat',serif;
+    color: #6C7289;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-transform:uppercase;
+    
+    
+}
+
+.perfume-name{
+    color: black;
+    justify-content: center;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+
+}
+.description{
+    color:  #6C7289;
+    font-family: 'Montserrat',serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px; 
+    
+}
+.cost-container{
+    display: flex;
+    align-items: center;
+}
+
+.cost{
+    color:#3D8168;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px; 
+}
+.old-cost{
+    color:  #6C7289;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px; 
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+
+.button{
+    border-radius: 8px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #3D8168;
+    padding:16px 20px;
+
+    border-radius: 8px;
+    border: none;
+}
+
+.click-on{
+    margin: 15px,62px,15px,62px;
+}
+
+.button-text{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.icon{
+    width: 14.385px;
+    height: 16px;
+}
+
+.spacing {
+    padding: 10px;
+}
+.attribution{
+    font-family: "Montserrat",serif;
+    font-weight: 500;
+}
